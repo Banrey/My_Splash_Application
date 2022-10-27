@@ -7,10 +7,28 @@
     android:background="#9575CD"
     tools:context=".SplashActivity">
 
+<<<<<<< Updated upstream
     <androidx.cardview.widget.CardView
         android:layout_width="194dp"
         android:layout_height="95dp"
         android:foregroundGravity="center"
+=======
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="#80CBC4"
+>>>>>>> Stashed changes
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,10 +36,20 @@
 
         <TextView
             android:id="@+id/textView"
+<<<<<<< Updated upstream
             android:layout_width="62dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
             android:text="TextView" />
+=======
+            android:layout_width="183dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#64B5F6"
+            android:gravity="center"
+            android:text="Hardcoded Text"
+            android:textSize="20sp" />
+>>>>>>> Stashed changes
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
